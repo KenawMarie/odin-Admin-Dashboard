@@ -1,6 +1,6 @@
-# The Odin Project - Sign-up Form solution
+# The Odin Project - Admin Dashboard solution
 
-This is a solution to the [Sign-up Form project on The Odin Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form). 
+This is a solution to the [Admin-Dashboard project on The Odin Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard). 
 
 ## Table of contents
 
