@@ -49,8 +49,13 @@ h2{
     gap: 10px;
 }
 
+.hover:hover,
+.hover:focus{
+    cursor: pointer;
+}
+
 input[type="search"]{
-    width: 100%;
+    width: 200%;
     height: 30px;
     -webkit-appearance: none;
     appearance: none;
@@ -59,7 +64,7 @@ input[type="search"]{
     border: 2px solid var(--gray);
     background-color: var(--gray);
     border-radius: 10px;
-    box-shadow: -5px -2px 0 0 #aaa;
+    box-shadow: -5px 5px 0 -2px #aaa;
 }
  
 .user{
@@ -103,6 +108,13 @@ button{
     color: var(--white);
     padding: 0.5em 2em; 
     border-radius: 20px;
+}
+
+button:hover,
+button:focus{
+    background-color: var(--gray);
+    color: var(--blue);
+    cursor: pointer;
 }
 
 .user-name{
@@ -153,12 +165,12 @@ button{
 .projects>div{
     background-color: var(--white);
     border-radius: 10px;
-    padding: 1em; 
+    padding: 1em 1em 2em; 
     border-left:10px solid var(--golden-yellow);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto ;
-    align-content: space-around;
+    align-content: space-between;
 }
 
 .projects h3{
